@@ -53,11 +53,26 @@ body {
     position: relative;
 }
 
+/* CSS for toast styling */
 .toast i {
     margin: 0 20px;
     font-size: 2rem;
+}
+
+.toast.success i {
     color: green;
 }
+
+.toast.error i {
+    color: red;
+}
+
+.toast.invalid i {
+    color: orange;
+}
+
+/* Other existing CSS remains unchanged */
+
 
 .toast::after {
     content: '';
